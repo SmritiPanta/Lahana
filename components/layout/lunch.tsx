@@ -7,106 +7,12 @@ export const Lunch = () => {
     return (
         <section id='menu-us' className="mb-10  ">
           
-            <div className="text-center flex justify-center items-center gap-2">
-                <h2 className="text-[#660f0f] font-bold text-4xl stylefont flex"> <div className=" -mt-5 -ml-1 text-7xl"><GoDash /></div>Check Out Our Menu <div className=" -mt-5 -ml-1 text-7xl"><GoDash /></div></h2>
-                
-            </div>
-
             
-            <h2 className="text-[#0F172B] font-bold text-2xl italic flex justify-center mt-5 font1"> Menu for  first and third week of the month</h2>
-            
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 ml-7 mt-5  place-items-center ">
-                <div className=" p-4 rounded-lg text-center w-[50vh] h-[50vh]">
-                <h4 className="font-bold text-2xl my-2">Sunday</h4>
-                    <img src={"/food.jpg"} alt={'prawn'} className="h-[30vh] w-[40vh] rounded-xl" />
-                    <h4 className="font-semibold my-2 text-[1.3rem]"> Chicken MoMo </h4>
-                   
 
-                </div>
 
-                <div className=" p-4 rounded-lg text-center w-[50vh] h-[50vh]">
-                <h4 className="font-bold text-2xl my-2">Monday</h4>
-                    <img src={"/food.jpg"} alt={'prawn'} className="h-[30vh] w-[40vh] rounded-xl" ml-5 />
-                    <h4 className="font-semibold my-2 text-[1.3rem]">Veg Samyabaji</h4>
-                    
-                </div>
-                
-                <div className=" p-4 rounded-lg text-center w-[50vh] h-[50vh]">
-                <h4 className="font-bold text-2xl my-2">Tuesday</h4>
-                    <img src={"/indian-food.png"} alt={'prawn'} className="h-[30vh] w-[40vh] rounded-xl" ml-5 />
-                    <h4 className="font-semibold my-2 text-[1.3rem]">Spaghetti, Manchurian , salad</h4>
-                    
-                </div>
-                <div className=" p-4 rounded-lg text-center w-[50vh] h-[50vh]">
-                <h4 className="font-bold text-2xl my-2">Wednesday</h4>
-                    <img src={"/prawn-malabari.jpg"} alt={'prawn'} className="h-[30vh] w-[40vh] rounded-xl" ml-5 />
-                    <h4 className="font-semibold my-2 text-[1.3rem] ">Chicken Biryani, Raita and Salad</h4>
-                    
-                </div>
-                <div className=" p-4 rounded-lg text-center w-[50vh] h-[50vh]">
-                <h4 className="font-bold text-2xl my-2">Thursday</h4>
-                    <img src={"/icecream.jpg"} alt={'prawn'} className="h-[30vh] w-[40vh] rounded-xl" ml-5 />
-                    <h4 className="font-semibold my-2 text-[1.3rem]">Chicken Club Sandwich and Fries</h4>
-                    
-                </div>
-                <div className=" p-4 rounded-lg text-center w-[50vh] h-[50vh]">
-                <h4 className="font-bold text-2xl my-2">Friday</h4>
-                    <img src={"/about-4.jpg"} alt={'prawn'} className="h-[30vh] w-[40vh] rounded-xl" ml-5 />
-                    <h4 className="font-semibold my-2 text-[1.3rem]">Chicken Chow Mein</h4>
-                    
-                </div>
-                
-                
-                </div>
-                <h2 className="text-[#0F172B] font-bold text-2xl italic flex justify-center mt-10 font1"> Menu for  second and last week of the month</h2>
-            
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 ml-7 mt-5  place-items-center ">
-                <div className=" p-4 rounded-lg text-center w-[50vh] h-[50vh]">
-                <h4 className="font-bold text-2xl my-2">Sunday</h4>
-                    <img src={"/food.jpg"} alt={'prawn'} className="h-[30vh] w-[40vh] rounded-xl" />
-                    <h4 className="font-semibold my-2 text-[1.3rem]"> Chicken Samyabaji </h4>
-                   
 
-                </div>
 
-                <div className=" p-4 rounded-xl text-center w-[50vh] h-[50vh]">
-                <h4 className="font-bold text-2xl my-2">Monday</h4>
-                    <img src={"/food.jpg"} alt={'prawn'} className="h-[30vh] w-[40vh] rounded-xl" ml-5 />
-                    <h4 className="font-semibold my-2 text-[1.3rem]">Chola, Bhatura and Onion Ring</h4>
-                    
-                </div>
-                
-                <div className=" p-4 rounded-lg text-center w-[50vh] h-[50vh]">
-                <h4 className="font-bold text-2xl my-2">Tuesday</h4>
-                    <img src={"/indian-food.png"} alt={'prawn'} className="h-[30vh] w-[40vh] rounded-xl" ml-5 />
-                    <h4 className="font-semibold my-2 text-[1.3rem]">Pasta, Manchurian and salad</h4>
-                    
-                </div>
-                <div className=" p-4 rounded-lg text-center w-[50vh] h-[50vh]">
-                <h4 className="font-bold text-2xl my-2">Wednesday</h4>
-                    <img src={"/prawn-malabari.jpg"} alt={'prawn'} className="h-[30vh] w-[40vh] rounded-xl" ml-5 />
-                    <h4 className="font-semibold my-2 text-[1.3rem] ">Chicken Biryani, Raita and Salad</h4>
-                    
-                </div>
-                <div className=" p-4 rounded-lg text-center w-[50vh] h-[50vh]">
-                <h4 className="font-bold text-2xl my-2">Thursday</h4>
-                    <img src={"/icecream.jpg"} alt={'prawn'} className="h-[30vh] w-[40vh] rounded-xl" ml-5 />
-                    <h4 className="font-semibold my-2 text-[1.3rem]">Chicken Manchurian and Salad</h4>
-                    
-                </div>
-                <div className=" p-4 rounded-lg text-center w-[50vh] h-[50vh]">
-                <h4 className="font-bold text-2xl my-2">Friday</h4>
-                    <img src={"/about-4.jpg"} alt={'prawn'} className="h-[30vh] w-[40vh] rounded-xl" ml-5 />
-                    <h4 className="font-semibold my-2 text-[1.3rem]">Chicken Fried Rice and Salad</h4>
-                    
-                </div>
-                
-                
-                </div>
-                <div className="  w-[70vh] mt-5 ml-10 px-10 flex  flex-col justify-end ">
-                    <h1>  To learn more about lahana lunch box</h1>
-                    
-        </div>
+
 
         <div className="text-center flex justify-center  mt-10 items-center gap-2">
                 <h2 className="text-[#660f0f] font-bold text-4xl stylefont flex"> <div className=" -mt-5 -ml-1 text-7xl"><GoDash /></div>Welcome to Lahana Lunch Box <div className=" -mt-5 -ml-1 text-7xl"><GoDash /></div></h2>
