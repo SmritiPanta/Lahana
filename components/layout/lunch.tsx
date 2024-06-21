@@ -6,6 +6,7 @@ import Link from 'next/link';
 export const Lunch = () => {
     return (
         <section id='menu-us' className="mb-10  ">
+          
             <div className="text-center flex justify-center items-center gap-2">
                 <h2 className="text-[#660f0f] font-bold text-4xl stylefont flex"> <div className=" -mt-5 -ml-1 text-7xl"><GoDash /></div>Check Out Our Menu <div className=" -mt-5 -ml-1 text-7xl"><GoDash /></div></h2>
                 
