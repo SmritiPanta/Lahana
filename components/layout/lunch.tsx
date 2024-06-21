@@ -25,7 +25,7 @@ export const Lunch = () => {
 
                 <div className=" p-4 rounded-lg text-center w-[50vh] h-[50vh]">
                 <h4 className="font-bold text-2xl my-2">Monday</h4>
-                    <img src={"/hero.png"} alt={'prawn'} className="h-[30vh] w-[40vh]" ml-5 />
+                    <img src={"/food.jpg"} alt={'prawn'} className="h-[30vh] w-[40vh] rounded-xl" ml-5 />
                     <h4 className="font-semibold my-2 text-[1.3rem]">Veg Samyabaji</h4>
                     
                 </div>
@@ -68,9 +68,9 @@ export const Lunch = () => {
 
                 </div>
 
-                <div className=" p-4 rounded-lg text-center w-[50vh] h-[50vh]">
+                <div className=" p-4 rounded-xl text-center w-[50vh] h-[50vh]">
                 <h4 className="font-bold text-2xl my-2">Monday</h4>
-                    <img src={"/hero.png"} alt={'prawn'} className="h-[30vh] w-[40vh]" ml-5 />
+                    <img src={"/food.jpg"} alt={'prawn'} className="h-[30vh] w-[40vh] rounded-xl" ml-5 />
                     <h4 className="font-semibold my-2 text-[1.3rem]">Chola, Bhatura and Onion Ring</h4>
                     
                 </div>
