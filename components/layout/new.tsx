@@ -1,4 +1,4 @@
-import { GiForkKnifeSpoon } from "react-icons/gi";
+/*import { GiForkKnifeSpoon } from "react-icons/gi";
 import { PiTrolleyFill } from "react-icons/pi";
 import { IoPeopleSharp } from "react-icons/io5";
 import { RiCustomerServiceFill } from "react-icons/ri";
@@ -29,4 +29,36 @@ export const New = () => {
         </div>
 
     )
+}
+*/
+import { GiForkKnifeSpoon } from "react-icons/gi";
+import { PiTrolleyFill } from "react-icons/pi";
+import { IoPeopleSharp } from "react-icons/io5";
+import { RiCustomerServiceFill } from "react-icons/ri";
+
+export const New = () => {
+    return (
+        <div id='service-us' className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-10 overflow-hidden mb-5 px-4 md:px-10">
+            <div className="p-4 text-center bg-white shadow-xl rounded-xl flex flex-col items-center">
+                <div className="text-5xl text-[#4e2424] mb-2"><IoPeopleSharp /></div>
+                <h2 className="font-semibold my-2 text-black text-3xl font1">Master Chefs</h2>
+                <p className="px-4 md:px-10 text-black text-xl text-center">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+            <div className="p-4 text-center bg-white shadow-xl rounded-xl flex flex-col items-center">
+                <div className="text-5xl text-[#4e2424] mb-2"><GiForkKnifeSpoon /></div>
+                <h2 className="font-semibold my-2 text-black text-3xl font1">Quality Food</h2>
+                <p className="px-4 md:px-10 text-black text-xl text-center">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+            <div className="p-4 text-center bg-white shadow-xl rounded-xl flex flex-col items-center">
+                <div className="text-5xl text-[#4e2424] mb-2"><PiTrolleyFill /></div>
+                <h2 className="font-semibold my-2 text-black text-3xl font1">Online order</h2>
+                <p className="px-4 md:px-10 text-black text-xl text-center">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+            <div className="p-4 text-center bg-white shadow-xl rounded-xl flex flex-col items-center">
+                <div className="text-5xl text-[#4e2424] mb-2"><RiCustomerServiceFill /></div>
+                <h2 className="font-semibold my-2 text-black text-3xl font1">24/7 Service</h2>
+                <p className="px-4 md:px-10 text-black text-xl text-center">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+        </div>
+    );
 }
