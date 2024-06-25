@@ -23,7 +23,7 @@ export const Lunch = () => {
           </div>
         </h2>
       </div>
-      <div className='ml-7 mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 place-items-center px-4 md:px-10 lg:px-20'>
+      <div className=' mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 place-items-center px-4 md:px-10 lg:px-10'>
         
         <div className='flex flex-col md:flex-row h-auto w-full justify-between rounded-xl p-4 shadow-2xl'>
           <div className='flex flex-col'>
