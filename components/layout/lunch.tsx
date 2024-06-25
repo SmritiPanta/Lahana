@@ -8,10 +8,10 @@ import { AiFillForward } from "react-icons/ai";
 export const Lunch = () => {
   return (
     
-    <div id="menu-us" className='mb-3 mt-5 py-6 pt-8 '>
+    <div id="menu-us" className=' pt-8 '>
       
       
-      <div className="text-center flex justify-center  mt-10 items-center gap-2">
+      <div className="text-center flex justify-center pt-10 items-center gap-2">
         <h2 className="text-[#660f0f] font-bold text-4xl stylefont flex">
           {" "}
           <div className=" -mt-5 -ml-1 text-7xl">
@@ -23,7 +23,7 @@ export const Lunch = () => {
           </div>
         </h2>
       </div>
-      <div className=' mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 place-items-center px-4 md:px-10 lg:px-10'>
+      <div className=' pt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 place-items-center px-4 md:px-10 lg:px-10'>
         
         <div className='flex flex-col md:flex-row h-auto w-full justify-between rounded-xl p-4 shadow-2xl'>
           <div className='flex flex-col'>

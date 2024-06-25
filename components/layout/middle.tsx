@@ -9,7 +9,7 @@ export const Middle = () => {
       id='about-us'
       className='ml-0 md:ml-10 pt-10 flex flex-col md:flex-row md:justify-between '
     >
-      <div className='flex py-5'>
+      <div className='flex pt-5'>
         <div className='flex flex-col'>
           <div className=''>
             <Image
@@ -56,9 +56,12 @@ export const Middle = () => {
         </div>
       </div>
 
-      <div className=' px-0 md:px-10 py-5'>
+      <div className=' px-0 md:px-10 '>
         <h2 className=' stylefont mt-8 flex px-5 font-serif text-2xl font-semibold text-[#7e3939]'>
           {' '}
+          <div className=' -ml-1 -mt-5 text-7xl'>
+            <GoDash />{' '}
+          </div>{' '}
           about us{' '}
           <div className=' -ml-1 -mt-5 text-7xl'>
             <GoDash />{' '}
@@ -83,7 +86,7 @@ export const Middle = () => {
           We’ve been working in the hospitality industry for over 5 years and
           opened Newa Lahana knowing what tourists from around the world wanted.
           We treat all our guests with honesty and respect. 
-          <div className='flex py-7'>
+          <div className='flex pt-7'>
             <div className='flex'>
               <div className='mr-4 text-5xl font-bold text-[#7e3939]'>15</div>
               <div>
