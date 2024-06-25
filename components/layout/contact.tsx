@@ -26,12 +26,12 @@ export const Contact = () => {
     import Image from "next/image";
     export const Contact = () => {
       return (
-        <div id='contact-us' className="flex flex-col md:flex-row p-4">
+        <div id='contact-us' className="flex flex-col md:flex-row pt-10">
           <div className="flex relative w-full md:w-[50%] h-[300px] md:h-[450px] mt-4">
-            <Image src={'/map.png'} objectFit="contain" alt={'table'} layout="fill" className="absolute bg-mint text-mint fill-current border border-gray-200"></Image>
+            <Image src={'/map.png'} objectFit="contain" alt={'table'} layout="fill" className="absolute bg-mint text-mint  "></Image>
           </div>
     
-          <div className="flex flex-col items-center md:items-start mt-8 md:mt-0 w-full md:w-[50%] px-4 md:px-10">
+          <div className="flex flex-col items-center md:items-start mt-8 md:mt-0 w-full md:w-[50%] px-4 md:px-10 pt-10">
             <div className="w-full flex flex-col gap-3">
               <h1 className="text-2xl stylefont font-semibold text-black">Reach Out. We are Here to Help.</h1>
               <h1 className="text-4xl font-semibold text-[#7e3939] font1">Contact Us</h1>

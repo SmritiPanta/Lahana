@@ -36,7 +36,7 @@ export const Upper = () => {
     // )
 // }
 import Image from "next/image";
-import { BsArrowRightCircle } from "react-icons/bs";
+// import { BsArrowRightCircle } from "react-icons/bs";
 
 export const Upper = () => {
     return (

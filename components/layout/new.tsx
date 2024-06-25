@@ -38,7 +38,7 @@ import { RiCustomerServiceFill } from "react-icons/ri";
 
 export const New = () => {
     return (
-        <div id='service-us' className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-10 overflow-hidden mb-5 px-4 md:px-10">
+        <div id='service-us' className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4  overflow-hidden mb-5 px-4 md:px-10 pt-16">
             <div className="p-4 text-center bg-white shadow-xl rounded-xl flex flex-col items-center">
                 <div className="text-5xl text-[#4e2424] mb-2"><IoPeopleSharp /></div>
                 <h2 className="font-semibold my-2 text-black text-3xl font1">Master Chefs</h2>

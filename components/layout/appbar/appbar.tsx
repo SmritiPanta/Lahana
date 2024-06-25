@@ -7,9 +7,10 @@ import { GiForkKnifeSpoon } from 'react-icons/gi';
 import { MdArrowDropDown } from 'react-icons/md';
 
 
+import { MobileNav } from './mobile-nav';
 
-
-export const Appbar = () => {
+export const Appbar = async () => {
+  
   
   return (
     <header className='sticky left-0 top-0 z-50 flex w-full items-center justify-between bg-[#ffff] p-4'>
@@ -68,7 +69,8 @@ export const Appbar = () => {
           </Link>
         
       </div>
-      
+      <MobileNav />
     </header>
   );
 };
+
