@@ -16,6 +16,7 @@ import { Review } from '@/components/layout/review';
 import { Upper } from '@/components/layout/upper';
 import { Subscription } from '@/components/layout/subscription';
 import { Lunch } from '@/components/layout/lunch';
+import { Faq } from '@/components/layout/faq';
 
 
 const IndexPage = () => (
@@ -29,6 +30,7 @@ const IndexPage = () => (
     <Contact />
     
     <Review />
+    <Faq/>
     <Footer />
   </>
 );

@@ -67,25 +67,14 @@ export const Middle = () => {
             <GoDash />{' '}
           </div>{' '}
         </h2>
-        <h1 className='font1 mt-1 flex  flex-col sm:flex-row px-4 text-4xl font-semibold text-black'>
-          Welcome to{' '}
-          <div className='font1 sm:-mt-5 px-3 py-3 text-5xl text-[#7e3939]'>
-            <GiForkKnifeSpoon />
-          </div>{' '}
-          Newa Lahana
+        <h1 className='font1 mt-1 flex  flex-col sm:flex-row px-4 text-4xl font-semibold text-black'> 
+          We have passion for great food.
         </h1>
 
         <h1 className='mt-3 md:h-[75vh] md:w-[80vh]  px-5 text-[1.2rem]'>
           {' '}
-          Newa Lahana is a Nepali restaurant tucked away in a quiet part of
-          Thamel with no traffic. Our guests call us “the most peaceful cafe in
-          Kathmandu … with the best breakfasts … filling lunches … delicious
-          dinners”. to the best dishes for our guests to enjoy in a quiet
-          environment.
-          <br /> <br />
-          We’ve been working in the hospitality industry for over 5 years and
-          opened Newa Lahana knowing what tourists from around the world wanted.
-          We treat all our guests with honesty and respect. 
+          Lahana LunchBox was born out of a love for great food and a commitment to sustainability. Our founders,[], envisioned a service that not only provided delicious meals but also promoted an eco-friendly lifestyle. We are here to provide a solution to the lunch dilemma of corporate staff, helping them enjoy affordable, delicious, and sustainable lunch options every day. With a focus on fresh ingrients, balanced nutrition, and eco-friebdly practice, we aim to revolutionize the way you experience lunch.
+          
           <div className='flex pt-7'>
             <div className='flex'>
               <div className='mr-4 text-5xl font-bold text-[#7e3939]'>15</div>
