@@ -6,7 +6,7 @@ import { AiFillForward } from "react-icons/ai";
 
 export const Lunch = () => {
   return (
-    <div id="menu-us" className=" pt-8 ">
+    <div id="menu-us" className="continer pt-8 ">
       <div className="text-center flex justify-center pt-10 items-center gap-2">
         <h2 className="text-[#660f0f] font-bold text-4xl  stylefont flex">
           {" "}

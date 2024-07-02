@@ -82,7 +82,7 @@ import { GoDash } from "react-icons/go";
 
 export const Review = () => {
   return (
-    <section className="py-10 px-5">
+    <section className=" container py-10 px-5">
       <div className="mt-10">
         <h2 className="text-[1.5rem] font-semibold text-black mt-8 px-5 font-serif flex justify-center items-center">
           <div className="-mt-4 -ml-1 text-7xl">

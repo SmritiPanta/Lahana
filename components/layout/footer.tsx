@@ -79,15 +79,15 @@ export const Footer = () => {
                 </h1>
                 <h3 className="font-semibold text-white py-1 flex items-center gap-2">
                     <FaLocationDot />
-                    Thamel-8 Kathmandu
+                    Kamaladi Kathmandu
                 </h3>
                 <h3 className="text-white py-1 flex items-center gap-3">
                     <IoCall />
-                    +977 980000000
+                    +977 9802365873
                 </h3>
                 <h3 className="font-semibold py-1 text-white flex items-center gap-3">
                     <IoMail />
-                    mail@domain.com
+                    lahanalunchbox@gmail.com
                 </h3>
                 <div className="flex font-bold py-1 text-2xl text-white gap-4">
                     <FaFacebook />

@@ -8,14 +8,11 @@ import { GoDash } from 'react-icons/go';
 
 export const New = () => {
     return (
-        <section className="pt-16 mt-5">
-            <h1 className='font1 mt-1  text-center sm:text-left flex justify-center sm:flex-row items-center  px-4 text-4xl font-semibold text-black'> 
-          Welcome to{' '}
-          <div className='font1 sm:-mt-5 px-3 py-3 text-5xl text-[#7e3939]'>
-            <GiForkKnifeSpoon />
-          </div>{' '}
-           Lahana LunchBox
-        </h1>
+        <section className=" container pt-16 mt-5">
+            <div className='font1 mt-1  text-center sm:text-left flex justify-center sm:flex-row items-center  px-6 text-4xl 
+            font-semibold text-black'> 
+          Welcome to Lahana LunchBox
+        </div>
 
         <h1 className='mt-3 flex justify-center px-5 text-[1.2rem]'>
           {' '}

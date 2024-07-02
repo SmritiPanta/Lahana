@@ -5,6 +5,7 @@ import { GiForkKnifeSpoon } from 'react-icons/gi';
 
 
 import { Contact } from '@/components/layout/contact';
+import { Contactus } from '@/components/layout/contactus';
 
 import { Footer } from '@/components/layout/footer';
 
@@ -17,7 +18,8 @@ import { Upper } from '@/components/layout/upper';
 import { Subscription } from '@/components/layout/subscription';
 import { Lunch } from '@/components/layout/lunch';
 import { Faq } from '@/components/layout/faq';
-
+import { Start } from '@/components/layout/start';
+import { Follow } from '@/components/layout/follow';
 
 const IndexPage = () => (
   <>
@@ -27,9 +29,13 @@ const IndexPage = () => (
     
     <Lunch/>
     <Subscription/>
-    <Contact />
+    <Start/>
+    <Contactus />
+    
+    
     
     <Review />
+    <Follow/>
     <Faq/>
     <Footer />
   </>
