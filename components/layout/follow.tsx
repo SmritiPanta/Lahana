@@ -54,7 +54,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 export const Follow = () => {
   return (
-    <section className="flex flex-col items-center justify-center h-[450px] overflow-x-hidden relative">
+    <section className="flex flex-col items-center justify-center h-[650px] md:h-[450px] overflow-x-hidden relative">
       <div className="absolute inset-0 -z-10 w-full h-full">
         <Image
           src={"/follow.jpg"}
@@ -64,11 +64,11 @@ export const Follow = () => {
           className="w-full h-full"
         />
       </div>
-      <div className="flex h-full w-full flex-col justify-center gap-6 px-6 md:px-10 items-center text-center md:text-left">
-        <h1 className="text-black text-3xl pt-10 md:text-3xl font-bold max-w-[90%] sm:max-w-[300px] md:max-w-[500px] font1">
+      <div className="flex h-full w-full flex-col justify-center gap-2 md:gap-6 px-6 md:px-10 items-center text-center md:text-left">
+        <h1 className="text-black text-3xl pt-5 md:pt-10 md:text-3xl font-bold max-w-[90%] sm:max-w-[300px] md:max-w-[500px] font1">
           FOLLOW US ON SOCIAL MEDIA
         </h1>
-        <h1 className="text-2xl stylefont font-semibold text-black">
+        <h1 className="text-2xl stylefont pt-4 md:pt-0 font-semibold text-black">
           Stay updated with our latest news, menus, and promotions.
         </h1>
         <div className="flex flex-col md:flex-row gap-10 pt-12 items-center md:items-start">
