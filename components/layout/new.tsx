@@ -6,6 +6,8 @@ import { IoPeopleSharp } from "react-icons/io5";
 import { RiCustomerServiceFill } from "react-icons/ri";
 import { GoDash } from 'react-icons/go';
 
+import { IoCheckmarkDoneCircle } from "react-icons/io5";
+
 export const New = () => {
     return (
         <section className=" container pt-16 mt-5">
@@ -42,7 +44,7 @@ export const New = () => {
                 <p className="px-4 md:px-10 text-black text-xl text-center">We prioritize eco-friendly packaging and sustainable practices.</p>
             </div>
             <div className="p-4 text-center bg-white  rounded-xl flex flex-col items-center">
-                <div className="text-5xl text-[#4e2424] mb-2"><RiCustomerServiceFill /></div>
+                <div className="text-5xl text-[#4e2424] mb-2"><IoCheckmarkDoneCircle /></div>
                 <h2 className="font-semibold my-2 text-black text-3xl font1">Convenience</h2>
                 <p className="px-4 md:px-10 text-black text-xl text-center">We deliver straight to your office for maxmimum convenience.</p>
             </div>

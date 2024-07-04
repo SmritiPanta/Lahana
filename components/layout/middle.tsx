@@ -84,11 +84,11 @@ export const Middle = () => {
               </div>
             </div>
             <div className='flex '>
-              <div className='ml-4 text-5xl font-bold text-[#7e3939]'>50</div>
+              <div className='ml-5 text-5xl font-bold text-[#7e3939]'>4</div>
               <div className='ml-5'>
                 {' '}
-                Popular <br />
-                MASTER CHEFS
+                Lahana <br />
+                RESTRURANTS
               </div>
             </div>
           </div>

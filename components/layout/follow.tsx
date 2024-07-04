@@ -47,6 +47,7 @@
 //     )
 // }
 import Image from "next/image";
+import Link from "next/link";
 import { BsArrowRightCircle } from "react-icons/bs";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -72,23 +73,32 @@ export const Follow = () => {
           Stay updated with our latest news, menus, and promotions.
         </h1>
         <div className="flex flex-col md:flex-row gap-10 pt-12 items-center md:items-start">
-          <div className="flex flex-col items-center md:items-start">
+          <div className="flex flex-col items-center gap-4">
             <FaFacebookSquare className="text-5xl text-[#18365e]" />
-            <h1 className="text-center md:text-left">
-              facebook.com/lahanalunchbox
-            </h1>
+            <Link href="https://facebook.com/lahanalunchbox" passHref>
+                
+                  facebook.com/lahanalunchbox
+               
+              </Link>
+            
           </div>
-          <div className="flex flex-col items-center md:items-start">
+          <div className="flex flex-col items-center gap-4 ">
             <FaInstagramSquare className="text-5xl text-[#d33939]" />
-            <h1 className="text-center md:text-left">
-              instagram.com/lahanalunchbox
-            </h1>
+            <Link href="https://instagram.com/lahanalunchbox" passHref>
+                
+                  instagram.com/lahanalunchbox
+                
+              </Link>
+            
           </div>
-          <div className="flex flex-col items-center md:items-start">
+          <div className="flex flex-col items-center gap-4 ">
             <FaLinkedin className="text-5xl text-[#0A66C2]" />
-            <h1 className="text-center md:text-left">
-              linkedin.com/company/lahanalunchbox
-            </h1>
+            <Link href="https://linkedin.com/company/lahanalunchbox" passHref>
+                
+                  linkedin.com/company/lahanalunchbox
+                
+              </Link>
+            
           </div>
         </div>
       </div>
