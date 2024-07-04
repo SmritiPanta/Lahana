@@ -19,7 +19,7 @@ export const Lunch = () => {
           </div>
         </h2>
       </div>
-      <h2 className="flex justify-center font-semibold text-lg">
+      <h2 className="flex justify-center  font2 font-semibold text-lg">
         Discover a variety of delicious and healthy meals curated for your
         enjoyment. Our menu rotates bi-weekly to keep your taste buds excited
         ans satisfied.

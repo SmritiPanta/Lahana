@@ -71,20 +71,20 @@ export const Middle = () => {
           We have passion for great food.
         </h1>
 
-        <h1 className='mt-3 md:h-[75vh] md:w-[80vh] text-justify px-5 text-[1.2rem]'>
+        <h1 className='mt-3 md:h-[75vh] md:w-[80vh] font2 text-justify px-5 text-[1.2rem]'>
           {' '}
           Lahana LunchBox was born out of a love for great food and a commitment to sustainability. Our founders,[], envisioned a service that not only provided delicious meals but also promoted an eco-friendly lifestyle. We are here to provide a solution to the lunch dilemma of corporate staff, helping them enjoy affordable, delicious, and sustainable lunch options every day. With a focus on fresh ingrients, balanced nutrition, and eco-friebdly practice, we aim to revolutionize the way you experience lunch.
           
           <div className='flex pt-7'>
             <div className='flex'>
-              <div className='mr-4 text-5xl font-bold text-[#EE2916]'>15</div>
+              <div className='mr-4 text-5xl  font2 font-bold text-[#EE2916]'>15</div>
               <div>
                 Years of <br />
                 EXPERIENCE
               </div>
             </div>
             <div className='flex '>
-              <div className='ml-5 text-5xl font-bold text-[#EE2916]'>4</div>
+              <div className='ml-5 text-5xl  font2 font-bold text-[#EE2916]'>4</div>
               <div className='ml-5'>
                 {' '}
                 Lahana <br />

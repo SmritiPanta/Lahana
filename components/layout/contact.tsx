@@ -3,7 +3,7 @@
     import { GoDash } from 'react-icons/go';
     export const Contact = () => {
       return (
-        <div id='contact-us' className="flex flex-col md:flex-row pt-10">
+        <div  className="flex flex-col md:flex-row pt-10">
           <div className="flex relative w-full md:w-[50%] h-[300px] md:h-[450px] mt-4">
             <Image src={'/map.png'} objectFit="contain" alt={'table'} layout="fill" className="absolute bg-mint text-mint  "></Image>
           </div>
