@@ -9,7 +9,7 @@ import { IoCheckmarkDoneCircle } from "react-icons/io5";
 
 export const New = () => {
     return (
-        <section className=" container pt-16 ">
+        <section  id='service-us' className=" container pt-16 ">
             <div className='font1 pt-1  text-center sm:text-left flex justify-center sm:flex-row items-center  px-6 text-4xl 
             font-semibold text-black'> 
           Welcome to Lahana LunchBox
@@ -30,7 +30,7 @@ export const New = () => {
           </div>{' '}
         </h2>
 
-        <div id='service-us' className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4  overflow-hidden mb-5 px-4 md:px-10 ">
+        <div  className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4  overflow-hidden mb-5 px-4 md:px-10 ">
             
             <div className="p-4 text-center bg-[#fff998]  rounded-xl flex flex-col items-center">
                 <div className="text-5xl text-[#EE2916] mb-2"><GiForkKnifeSpoon /></div>

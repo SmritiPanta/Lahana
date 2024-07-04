@@ -6,7 +6,7 @@ import Link from "next/link";
     import { IoLocationSharp } from "react-icons/io5";
     export const Contactus = () => {
       return (
-<section  className="  container pt-10">
+<section id='contact-us' className="  container pt-10">
         <h1 className="text-4xl font-semibold text-[#EE2916] ml-16 px-10 font1">Contact Us</h1>
         <h1 className="text-2xl stylefont font-semibold flex pt-4 ml-10 text-black"> 
            
