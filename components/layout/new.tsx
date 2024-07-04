@@ -2,15 +2,14 @@
 
 import { GiForkKnifeSpoon } from "react-icons/gi";
 import { PiTrolleyFill } from "react-icons/pi";
-import { IoPeopleSharp } from "react-icons/io5";
-import { RiCustomerServiceFill } from "react-icons/ri";
+
 import { GoDash } from 'react-icons/go';
 
 import { IoCheckmarkDoneCircle } from "react-icons/io5";
 
 export const New = () => {
     return (
-        <section className=" container pt-16 mt-5">
+        <section className=" container pt-16 ">
             <div className='font1 mt-1  text-center sm:text-left flex justify-center sm:flex-row items-center  px-6 text-4xl 
             font-semibold text-black'> 
           Welcome to Lahana LunchBox

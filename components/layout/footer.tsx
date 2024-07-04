@@ -65,9 +65,9 @@ export const Footer = () => {
                     </div>
                 </h1>
                 <h3 className="font-semibold text-black py-1">About Us</h3>
-                <h3 className="text-black py-1">Contact Us</h3>
+                <h3 className="font-semibold text-black py-1">Contact Us</h3>
                 <h3 className="font-semibold py-1 text-black">Reservation</h3>
-                <h3 className="text-black py-1">Privacy Policy</h3>
+                <h3 className="font-semibold text-black py-1">Privacy Policy</h3>
                 <h3 className="font-semibold text-black py-1">Terms & Condition</h3>
             </div>
             <div className="text-start">
@@ -81,7 +81,7 @@ export const Footer = () => {
                     <FaLocationDot />
                     Kamaladi Kathmandu
                 </h3>
-                <h3 className="text-black py-1 flex items-center gap-3">
+                <h3 className=" font-semibold text-black py-1 flex items-center gap-3">
                     <IoCall />
                     +977 9802365873
                 </h3>

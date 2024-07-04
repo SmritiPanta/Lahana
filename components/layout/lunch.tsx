@@ -28,7 +28,7 @@ export const Lunch = () => {
         <div className="flex flex-col md:flex-row h-auto bg-[#ffff] justify-between rounded-xl p-4  border border-x-4 border-y-2 border-[#f56356] ">
           <div className="flex flex-col ">
             <h2 className="my-2 py-2  flex  items-center gap-4 text-2xl md:text-3xl font-bold text-black">
-              <FaBowlFood className="text-[#fff998]" /> Menu for Week 1 & 3
+              <FaBowlFood className="text-[#ee2916]" /> Menu for Week 1 & 3
             </h2>
             <h2 className="my-2 flex  gap-3 text-base md:text-lg font-semibold text-black items-center">
               <AiFillForward /> Sunday : Chicken Momo
@@ -59,7 +59,7 @@ export const Lunch = () => {
         <div className="flex flex-col md:flex-row h-auto bg-[#ffff] justify-between rounded-xl p-4 border border-x-4 border-y-2 border-[#ee2916] ">
           <div className="flex flex-col">
             <h2 className="my-2 py-2 flex gap-4  items-center text-2xl md:text-3xl font-bold text-black">
-              <FaBowlFood className="text-[#fff998]" /> Menu for Week 2 & 4
+              <FaBowlFood className="text-[#ee2916]" /> Menu for Week 2 & 4
             </h2>
             <h2 className="my-2 flex gap-3 items-center text-base md:text-lg font-semibold text-black">
               <AiFillForward />

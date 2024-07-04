@@ -97,7 +97,7 @@ const faqs = [
                 >
                   <span>{faq.question}</span>
                   <span>
-                    {activeIndex === index ? <FiChevronDown /> : <FiChevronUp />}
+                    {activeIndex === index ? <FiChevronUp /> : <FiChevronDown />}
                   </span>
                 </button>
                 {activeIndex === index && (

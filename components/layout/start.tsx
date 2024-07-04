@@ -3,7 +3,7 @@ import Image from "next/image";
     export const Start = () => {
       return (
         <section className="container">
-             <h2 className=' stylefont mt-8 flex justify-center px-5 font-serif text-4xl font-semibold text-[#EE2916]'>
+             <h2 className=' stylefont mt-8 flex justify-center px-5 pb-5 font-serif text-4xl font-semibold text-[#EE2916]'>
           {' '}
           <div className=' -ml-1 -mt-5 text-7xl'>
             <GoDash />{' '}

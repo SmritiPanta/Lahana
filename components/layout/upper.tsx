@@ -23,8 +23,8 @@ export const Upper = () => {
                     Elevate your lunch experience with Lahana Lunch Box. Healthy meals made with love and delivered with care.
                 </p>
             
-                <div className="max-w-[500px]">
-                    <button className="text-white flex gap-2 items-center px-10 py-2 border mt-3 rounded-xl bg-[#EE2916]">
+                <div className="max-w-[600px] max-h-[200px]">
+                    <button className="text-white flex gap-2 items-center px-10 py-4 border mt-3 rounded-xl bg-[#EE2916]">
                         Get started Today <BsArrowRightCircle />
                     </button>
                 </div> 
