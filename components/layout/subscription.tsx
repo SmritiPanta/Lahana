@@ -47,7 +47,7 @@ export const Subscription = () => {
             {/* </button> */}
           </div>
           <div className='flex items-center w-full md:w-auto mt-4 md:mt-0'>
-            <img src={"/nonveg.jpg"} alt={'Non Vegetarian Plan'} className="h-[30vh] w-[80vw] md:w-[50vh] rounded-xl object-cover" />
+            <img src={"/nonveg.JPG"} alt={'Non Vegetarian Plan'} className="h-[30vh] w-[80vw] md:w-[50vh] rounded-xl object-cover" />
           </div>
         </div>
 
@@ -75,7 +75,7 @@ export const Subscription = () => {
             {/* </button> */}
           </div>
           <div className='flex items-center w-full md:w-auto mt-4 md:mt-0'>
-            <img src={"/vegg.jpg"} alt={'Vegetarian Plan'} className="h-[30vh] w-[80vw] md:w-[50vh] rounded-xl object-cover" />
+            <img src={"/vegg.JPG"} alt={'Vegetarian Plan'} className="h-[30vh] w-[80vw] md:w-[50vh] rounded-xl object-cover" />
           </div>
         </div>
         
