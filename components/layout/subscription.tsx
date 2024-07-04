@@ -9,7 +9,7 @@ export const Subscription = () => {
   return (
     <div className='mb-3 mt-5 py-6'>
       <h2 className='stylefont mt-8 flex justify-center px-5 text-2xl font-semibold text-black'></h2>
-      <h1 className='font1 flex justify-center px-4 text-4xl font-semibold text-[#660f0f]'>
+      <h1 className='font1 flex justify-center px-4 text-4xl font-semibold text-[#EE2916]'>
         Subscription Plan
       </h1>
       <h2 className='stylefont flex justify-center pt-5 text-3xl font-bold text-[#0c0404]'>
@@ -26,15 +26,15 @@ export const Subscription = () => {
         <div className='flex flex-col md:flex-row h-auto w-full justify-between rounded-xl p-4 shadow-2xl'>
           <div className='flex flex-col'>
             <h2 className='my-2 py-2 flex gap-4 text-2xl md:text-3xl font-bold text-black'>
-              <PiKeyholeFill className='text-[#640d14]' />
+              <PiKeyholeFill className='text-[#EE2916]' />
               Non Vegetarian Plan
             </h2>
             <h2 className='my-2 flex gap-3 text-base md:text-lg font-semibold text-black'>
-              <SiTicktick className='rounded-xl text-xl text-[#640d14]' />
+              <SiTicktick className='rounded-xl text-xl text-[#EE2916]' />
               26 days. Daily Lunch
             </h2>
             <h2 className='my-2 flex gap-3 text-base md:text-lg font-bold text-black'>
-              <SiTicktick className='rounded-xl text-xl text-[#640d14]' />
+              <SiTicktick className='rounded-xl text-xl text-[#EE2916]' />
               Rs 4150.0
             </h2>
             <div>
@@ -47,7 +47,7 @@ export const Subscription = () => {
             {/* </button> */}
           </div>
           <div className='flex items-center w-full md:w-auto mt-4 md:mt-0'>
-            <img src={"/non-veg.jpg"} alt={'Non Vegetarian Plan'} className="h-[30vh] w-[80vw] md:w-[50vh] rounded-xl object-cover" />
+            <img src={"/nonveg.jpg"} alt={'Non Vegetarian Plan'} className="h-[30vh] w-[80vw] md:w-[50vh] rounded-xl object-cover" />
           </div>
         </div>
 
@@ -75,7 +75,7 @@ export const Subscription = () => {
             {/* </button> */}
           </div>
           <div className='flex items-center w-full md:w-auto mt-4 md:mt-0'>
-            <img src={"/veg.jpg"} alt={'Vegetarian Plan'} className="h-[30vh] w-[80vw] md:w-[50vh] rounded-xl object-cover" />
+            <img src={"/vegg.jpg"} alt={'Vegetarian Plan'} className="h-[30vh] w-[80vw] md:w-[50vh] rounded-xl object-cover" />
           </div>
         </div>
         

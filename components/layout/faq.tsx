@@ -87,12 +87,12 @@ const faqs = [
     
       return (
         <div className="p-5">
-          <div className="max-w-5xl mx-auto p-8  shadow-xl rounded-lg">
-            <h1 className="text-4xl font-bold mb-6 text-center text-[#7e3939]">Frequently Asked Questions</h1>
+          <div className="max-w-5xl mx-auto p-8  shadow-xl bg-[#ffff] rounded-lg">
+            <h1 className="text-4xl font-bold mb-6 text-center text-[#EE2916]">Frequently Asked Questions</h1>
             {faqs.map((faq, index) => (
               <div key={index} className="mb-4">
                 <button
-                  className="w-full flex justify-between items-center text-left text-lg font-medium text-gray-800 focus:outline-none"
+                  className="w-full flex justify-between items-center text-left text-lg font-medium b text-gray-800 focus:outline-none"
                   onClick={() => toggleFAQ(index)}
                 >
                   <span>{faq.question}</span>

@@ -7,7 +7,7 @@ import Link from "next/link";
     export const Contactus = () => {
       return (
 <section className=" container pt-10">
-        <h1 className="text-4xl font-semibold text-[#7e3939] ml-16 px-10 font1">Contact Us</h1>
+        <h1 className="text-4xl font-semibold text-[#EE2916] ml-16 px-10 font1">Contact Us</h1>
         <h1 className="text-2xl stylefont font-semibold flex pt-4 ml-10 text-black"> 
            
            Have a questions or need more information? We would love to hear from you!
@@ -20,7 +20,7 @@ import Link from "next/link";
             <div className="w-full flex flex-col gap-3">
              
           <div className="flex flex-col pt-3">
-          <MdEmail  className="ml-10 text-2xl text-[#7e3939]"/>
+          <MdEmail  className="ml-10 text-2xl text-[#EE2916]"/>
           <h1 className="px-10 pt-1 font-bold text-xl">Email</h1>
           <h1 className="px-10 pt-1 font-semibold">Monday - Friday :9am-5pm</h1>
           <Link href="mailto:lahanalunchbox@gmail.com" className="px-10 pt-1 font-semibold underline">
@@ -30,7 +30,7 @@ import Link from "next/link";
           </div>
 
           <div className="flex flex-col pt-3">
-          <FiPhoneCall  className="ml-10 text-2xl text-[#7e3939]"/>
+          <FiPhoneCall  className="ml-10 text-2xl text-[#EE2916]"/>
           <h1 className="px-10 pt-1 font-bold text-xl">Phone</h1>
           <Link href="tel:9802365873" className="px-10 pt-1 font-semibold">
                 9802365873
@@ -39,7 +39,7 @@ import Link from "next/link";
           </div>
 
           <div className="flex flex-col pt-3">
-          <IoLocationSharp className="ml-10 text-3xl text-[#7e3939]"/>
+          <IoLocationSharp className="ml-10 text-3xl text-[#EE2916]"/>
           <h1 className="px-10 pt-1 font-bold text-xl">Location</h1>
           <h1 className="px-10 pt-1 font-semibold">Kamaladi</h1>
           <h1 className="px-10 pt-1 font-semibold ">Kathmandu</h1>

@@ -57,7 +57,7 @@ export const Middle = () => {
       </div>
 
       <div className=' px-0 md:px-10 '>
-        <h2 className=' stylefont mt-8 flex px-5 font-serif text-2xl font-semibold text-[#7e3939]'>
+        <h2 className=' stylefont mt-8 flex px-5 font-serif text-2xl font-semibold text-[#EE2916]'>
           {' '}
           <div className=' -ml-1 -mt-5 text-7xl'>
             <GoDash />{' '}
@@ -77,14 +77,14 @@ export const Middle = () => {
           
           <div className='flex pt-7'>
             <div className='flex'>
-              <div className='mr-4 text-5xl font-bold text-[#7e3939]'>15</div>
+              <div className='mr-4 text-5xl font-bold text-[#EE2916]'>15</div>
               <div>
                 Years of <br />
                 EXPERIENCE
               </div>
             </div>
             <div className='flex '>
-              <div className='ml-5 text-5xl font-bold text-[#7e3939]'>4</div>
+              <div className='ml-5 text-5xl font-bold text-[#EE2916]'>4</div>
               <div className='ml-5'>
                 {' '}
                 Lahana <br />
