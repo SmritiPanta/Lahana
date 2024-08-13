@@ -1,64 +1,62 @@
 export type AllProductsType = {
-    data: {
-      products: {
-        items: {
+  data: {
+    products: {
+      items: {
+        id: number;
+        name: string;
+        slug: string;
+        variants: {
+          price?: number;
           id: number;
-          name: string;
-          slug: string;
-          variants: {
-            price?: number;
-            id: number;
-            options: {
-              name: string;
-            }[];
-            customFields: {
-              cutOffPrice: number;
-            };
+          options: {
+            name: string;
           }[];
-          assets?: { source?: string }[];
-          customFields: { saleProduct: boolean | null };
+          customFields: {
+            cutOffPrice: number;
+          };
         }[];
-      };
+        assets?: { source?: string }[];
+        customFields: { saleProduct: boolean | null };
+      }[];
     };
   };
-
+};
 
 export type SignupWithPhoneResponseType = {
- data: {
-  signupWithPhone: {
-    __typename: 'SignUpSuccess' | 'SignUpError' | 'ErrorResult';
-    message: string;
+  data: {
+    signupWithPhone: {
+      __typename: "SignUpSuccess" | "SignUpError" | "ErrorResult";
+      message: string;
+    };
   };
- }
-}
-
+};
 
 export type AuthenticateResponseType = {
- data: {
-  authenticate: {
-    __typename: 'CurrentUser'|'InvalidCredentialsError';
-    message: string;
+  data: {
+    authenticate: {
+      __typename: "CurrentUser" | "InvalidCredentialsError";
+      message: string;
+    };
   };
- }
-}
+};
 
 export type VerifyOtpResponseType = {
   data: {
-   verifyOtp: {
-     __typename: 'CurrentUser' |'VerifyOtpError';
-     message: string;
-   };
-  }
- }
+    verifyOtp: {
+      __typename: "CurrentUser" | "VerifyOtpError";
+      message: string;
+    };
+  };
+};
 
- export type logoutResponseType = {
+export type logoutResponseType = {
   data: {
-   logout: {
-     __typename: 'Success';
-    success:boolean;
-   };
-  }
- }
+    logout: {
+      __typename: "Success";
+      success: boolean;
+    };
+  };
+};
 
 //  export type UpdateCustomerResponseType = {
 //   data: {
@@ -69,42 +67,42 @@ export type VerifyOtpResponseType = {
 //   }
 //  }
 
-
-
 export type UpdateCustomerResponseType = {
   data: {
-    updateCustomer: {
-      __typename: 'Customer';
-      firstName: string;
-      lastName: string;
-      phoneNumber?: string | null;
-    } | {
-      __typename: 'Error';
-      message: string;
-    };
+    updateCustomer:
+      | {
+          __typename: "Customer";
+          firstName: string;
+          lastName: string;
+          phoneNumber?: string | null;
+        }
+      | {
+          __typename: "Error";
+          message: string;
+        };
   };
 };
 
 export type BuySubscriptionResponseType = {
-data: {
-    buySubscription: {
-      __typename:'buySubscriptionResponse'| 'MessageResponse',
-      pidx: number;
-      payment_url: string
-    }
-  }
-}
-
- export type ActiveCustomerResponseType = {
   data: {
-    activeCustomer : {
+    buySubscription: {
+      __typename: "buySubscriptionResponse" | "MessageResponse";
+      pidx: number;
+      payment_url: string;
+    };
+  };
+};
+
+export type ActiveCustomerResponseType = {
+  data: {
+    activeCustomer: {
       id: string;
       firstName: string;
       lastName: string;
       emailAddress: string;
-    }
-  }
- }
+    };
+  };
+};
 
 //  export type GetSubscriptionResponseType = {
 //   data: {
@@ -152,23 +150,22 @@ export type GetSubscriptionResponseType = {
 export type GetOneSubscriptionResponseType = {
   data: {
     getonesubscription: {
-     id: string,
-      type: string,
-      price: string,
-      category: string,
+      id: string;
+      type: string;
+      price: string;
+      category: string;
       products: [
         {
-          week: string,
-          dayOfWeek: string,
+          week: number;
+          dayOfWeek: string;
           items: [
             {
-              name: string,
+              name: string;
               description: string;
-            },
-            
-          ]
-        },
-      ]
+            }
+          ];
+        }
+      ];
     };
   };
 };

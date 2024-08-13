@@ -76,29 +76,20 @@ export const Follow = () => {
           <div className="flex flex-col items-center gap-4">
             <FaFacebookSquare className="text-5xl text-[#18365e]" />
             <Link href="https://facebook.com/lahanalunchbox" passHref>
-                
-                  facebook.com/lahanalunchbox
-               
-              </Link>
-            
+              facebook.com/lahanalunchbox
+            </Link>
           </div>
           <div className="flex flex-col items-center gap-4 ">
             <FaInstagramSquare className="text-5xl text-[#d33939]" />
             <Link href="https://instagram.com/lahanalunchbox" passHref>
-                
-                  instagram.com/lahanalunchbox
-                
-              </Link>
-            
+              instagram.com/lahanalunchbox
+            </Link>
           </div>
           <div className="flex flex-col items-center gap-4 ">
             <FaLinkedin className="text-5xl text-[#0A66C2]" />
             <Link href="https://linkedin.com/company/lahanalunchbox" passHref>
-                
-                  linkedin.com/company/lahanalunchbox
-                
-              </Link>
-            
+              linkedin.com/company/lahanalunchbox
+            </Link>
           </div>
         </div>
       </div>

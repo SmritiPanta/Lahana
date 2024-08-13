@@ -1,4 +1,3 @@
-
 import { authenticateMutation } from "../graphql/mutation/authenticate";
 import { buySubscriptionMutation } from "../graphql/mutation/buySubscription";
 import { logoutMutation } from "../graphql/mutation/logout";
@@ -18,7 +17,6 @@ import {
   BuySubscriptionResponseType,
   GetOneSubscriptionResponseType,
   GetSubscriptionResponseType,
-  
   SignupWithPhoneResponseType,
   UpdateCustomerResponseType,
   VerifyOtpResponseType,
@@ -67,17 +65,15 @@ export const verifyOtp = async (input: any) => {
   return res.body;
 };
 
-
-
-
-
-export const buySubscription = async (subscriptionId: number): Promise<BuySubscriptionResponseType> => {
+export const buySubscription = async (
+  subscriptionId: number
+): Promise<BuySubscriptionResponseType> => {
   const res = await fetcher<BuySubscriptionResponseType>({
-    query: buySubscriptionMutation ,
+    query: buySubscriptionMutation,
     variables: { subscriptionId } as any,
   });
   return res.body;
-}; 
+};
 
 export const updateCustomer = async (input: any) => {
   const res = await fetcher<UpdateCustomerResponseType>({
@@ -99,7 +95,7 @@ export const activeCustomer = async () => {
 };
 
 // export const getSubscriptions = async () => {
-  
+
 //   const res = await fetcher<GetSubscriptionResponseType>({
 //     query: getSubscriptionsQuery,
 //     cache: "no-store",
@@ -107,20 +103,21 @@ export const activeCustomer = async () => {
 //   return res.body;
 // };
 
+export const getSubscriptions =
+  async (): Promise<GetSubscriptionResponseType> => {
+    const res = await fetcher<GetSubscriptionResponseType>({
+      query: getSubscriptionsQuery,
+      cache: "no-store",
+    });
+    return res.body;
+  };
 
-
-export const getSubscriptions = async (): Promise<GetSubscriptionResponseType> => {
-  const res = await fetcher<GetSubscriptionResponseType>({
-    query: getSubscriptionsQuery,
-    cache: 'no-store',
-  });
-  return res.body;
-};
-
-export const getonesubscription = async (): Promise<GetOneSubscriptionResponseType> => {
-  const res = await fetcher<GetOneSubscriptionResponseType>({
-    query: getonesubscriptionsQuery,
-    cache: 'no-store',
-  });
-  return res.body;
-};
+export const getonesubscription =
+  async (subscriptionId: number): Promise<GetOneSubscriptionResponseType> => {
+    const res = await fetcher<GetOneSubscriptionResponseType>({
+      query: getonesubscriptionsQuery,
+      variables: { subscriptionId } as any,
+      cache: "no-store",
+    });
+    return res.body;
+  };

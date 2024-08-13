@@ -91,7 +91,7 @@ export const UserRegisterForm = ({
     startTransition(async () => {
       
       try {
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        
         const { confirmPassword, ...input } = values;
         console.log({input})
         const {data} = await signUpWithPhone({ input });
