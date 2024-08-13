@@ -123,7 +123,7 @@ export const Middle = () => {
           </div>
           <div className=" ml-8 mt-4 px-5">
             <Image
-              src={"/newa2.jpg"}
+              src={"/newa2.JPG"}
               objectFit="contain"
               alt={"table"}
               width="200"
