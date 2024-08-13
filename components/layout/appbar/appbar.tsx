@@ -1,27 +1,34 @@
-import React, { useState, type ReactNode } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
+import React, { useState, type ReactNode } from "react";
 
+import Link from "next/link";
 
-import { GiForkKnifeSpoon } from 'react-icons/gi';
-import { MdArrowDropDown } from 'react-icons/md';
+import { GiForkKnifeSpoon } from "react-icons/gi";
 
+import { LogoutButton } from "@/components/auth/logout-button";
+// import { Logo } from '#/components/icons/logo';
 
-import { MobileNav } from './mobile-nav';
+import { MobileNav } from "./mobile-nav";
+import { activeCustomer } from "@/lib/api";
+import Image from "next/image";
 
 export const Appbar = async () => {
-  
-  
+  const { data } = await activeCustomer();
   return (
-    <header className='sticky left-0 top-0 z-50 flex w-full items-center justify-between bg-[#ffff] p-4'>
-      <div className='font1 flex gap-2 text-4xl font-semibold text-[#7e3939]'>
-        <div className='font1 text-[#0F172B]'>
-          <GiForkKnifeSpoon />
-        </div>
-        NEWA LAHANA
-      </div>
-      <div className='hidden items-center gap-8 font-semibold text-[#7e3939] md:flex'>
-        <Link
+    <header className=' left-0 top-0 z-50 flex w-full  justify-between bg-[#ffff] p-4'>
+     
+        
+        <div className='  flex items-start '>
+            <Image
+              src={'/logon.png'}
+              objectFit=''
+              alt={'table'}
+              width='190'
+              height='1000'
+              className='bg-mint text-mint fill-current  '
+            ></Image>
+          </div>
+          <div className='hidden items-center gap-8 font-semibold text-lg text-black md:flex '>
+      <Link
           href='/'
           className='hover:text-gray-600'
         >
@@ -45,15 +52,8 @@ export const Appbar = async () => {
         >
           MENU
         </Link>
-        <div>
-          <Link
-            href='/page'
-            className='flex items-center hover:text-gray-600'
-          >
-            PAGE{' '}
-            <MdArrowDropDown className='rotate-180 text-xl transition-all hover:rotate-0' />
-          </Link>
-        </div>
+        
+          
         <Link
           href='#contact-us'
           className='hover:text-gray-600'
@@ -61,16 +61,24 @@ export const Appbar = async () => {
           CONTACT
         </Link>
         
+        <Link href="/profile">
+          <div className="text-2xl">{data?.activeCustomer?.firstName} </div>{" "}
+        </Link>
+
+        {data.activeCustomer ? (
+          <div>
+            <LogoutButton className="" />
+          </div>
+        ) : (
           <Link
             href='/login'
-            className='justify-center rounded-xl bg-[#662f2f] px-6 py-2 text-[#ffff] hover:bg-gray-500'
+            className='justify-center rounded-xl bg-[#EE2916] px-6 py-2 text-[#ffff] hover:bg-gray-500'
           >
             Login
           </Link>
-        
+        )}
       </div>
       <MobileNav />
     </header>
   );
 };
-

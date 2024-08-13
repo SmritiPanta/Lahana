@@ -17,25 +17,31 @@ import { Lunch } from "@/components/layout/lunch";
 import { Faq } from "@/components/layout/faq";
 import { Start } from "@/components/layout/start";
 import { Follow } from "@/components/layout/follow";
+import { getAllProducts } from "@/lib/api";
+import SubscribePage from "./allsubscription/page";
 
 
-const IndexPage = () => (
-  <>
-    <Upper />
-    <New />
-    <Middle />
-
-    <Lunch />
-    <Subscription />
-    <Start />
-    <Contactus />
-
-    <Follow />
-    <Faq />
-    
-    <Footer />
-    
-  </>
-);
+const IndexPage = async () => {
+  const products = await getAllProducts()
+  return <>
+      <Upper />
+      <New />
+      <Middle />
+      {/* /{JSON.stringify(products.data)} */}
+  
+      <Lunch />
+      
+      <SubscribePage/>
+      <Start />
+      <Contactus />
+  
+      <Follow />
+      <Faq />
+      
+      <Footer />
+      
+    </>
+  
+}
 
 export default IndexPage;
