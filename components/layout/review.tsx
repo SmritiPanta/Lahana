@@ -110,7 +110,11 @@ export const Review = () => {
             </div>
             <div className="flex-shrink-0 mt-6 relative w-32 h-32 md:w-40 md:h-40">
               <div className="absolute inset-0 bg-gray-200 rounded-lg shadow-lg transform rotate-3" />
-              <img src="/img1.jpg" alt="Jane Doe" className="w-full h-full rounded-lg object-cover relative z-10" />
+              <img
+                src="/img1.jpg"
+                alt="Jane Doe"
+                className="w-full h-full rounded-lg object-cover relative z-10"
+              />
             </div>
           </div>
         </div>
@@ -127,7 +131,11 @@ export const Review = () => {
             </div>
             <div className="flex-shrink-0 mt-6 relative w-32 h-32 md:w-40 md:h-40">
               <div className="absolute inset-0 bg-gray-200 rounded-lg shadow-lg transform rotate-3" />
-              <img src="/img2.jpg" alt="Jane Doe" className="w-full h-full rounded-lg object-cover relative z-10" />
+              <img
+                src="/img2.jpg"
+                alt="Jane Doe"
+                className="w-full h-full rounded-lg object-cover relative z-10"
+              />
             </div>
           </div>
         </div>
@@ -144,7 +152,11 @@ export const Review = () => {
             </div>
             <div className="flex-shrink-0 mt-6 relative w-32 h-32 md:w-40 md:h-40">
               <div className="absolute inset-0 bg-gray-200 rounded-lg shadow-lg transform rotate-3" />
-              <img src="/img3.jpg" alt="Jane Doe" className="w-full h-full rounded-lg object-cover relative z-10" />
+              <img
+                src="/img3.jpg"
+                alt="Jane Doe"
+                className="w-full h-full rounded-lg object-cover relative z-10"
+              />
             </div>
           </div>
         </div>
@@ -152,4 +164,3 @@ export const Review = () => {
     </section>
   );
 };
-
