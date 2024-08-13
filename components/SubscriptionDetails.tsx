@@ -165,14 +165,7 @@ const SubscriptionDetails: React.FC<SubscriptionDetailsProps> = ({
   if (error)
     return <p className="text-center text-lg text-red-600">Error: {error}</p>;
 
-  const groupedProducts = subscriptionData?.products.reduce((acc: { [key: number]: Product[] }, product) => {
-    if (!acc[product.week]) {
-      acc[product.week] = [];
-    }
-    acc[product.week].push(product);
-    return acc;
-  }, {});
-
+  
 
   return (
     <div className=" ">
