@@ -210,7 +210,7 @@ const SubscriptionDetails: React.FC<SubscriptionDetailsProps> = ({
           </h3>
           <div className=" flex flex-row">
             <Image
-              src={"/newa1.jpg"}
+              src={"/newa1.JPG"}
               objectFit="contain"
               alt={"Subscription Details"}
               width="400"
