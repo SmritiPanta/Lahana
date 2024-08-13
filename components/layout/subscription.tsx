@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import { FaCrown } from "react-icons/fa";
 import { GoDash } from "react-icons/go";
@@ -9,7 +8,7 @@ import Link from "next/link";
 import { activeCustomer } from "@/lib/api";
 import ProfilePage from "@/app/profile/page";
 
-export const Subscription = async() => {
+export const Subscription = async () => {
   const { data } = await activeCustomer();
   return (
     <div className="mb-3 mt-5 py-6">
@@ -47,16 +46,22 @@ export const Subscription = async() => {
               </h2>
             </div>
             {data.activeCustomer ? (
-          <div>
-            <Link href="/allsubscription" className="mt-3 flex h-[50px] w-[230px] items-center justify-center rounded-xl border bg-[#EE2916] p-2 px-4 text-xl font-bold text-white">
-            Subscribe Now
-  </Link>
-          </div>
-        ) : (
-            <Link href="/login" className="mt-3 flex h-[50px] w-[230px] items-center justify-center rounded-xl border bg-[#640d14] p-2 px-4 text-xl font-bold text-white">
-              Subscribe Now
-            </Link>
-             )}
+              <div>
+                <Link
+                  href="/allsubscription"
+                  className="mt-3 flex h-[50px] w-[230px] items-center justify-center rounded-xl border bg-[#EE2916] p-2 px-4 text-xl font-bold text-white"
+                >
+                  Subscribe Now
+                </Link>
+              </div>
+            ) : (
+              <Link
+                href="/login"
+                className="mt-3 flex h-[50px] w-[230px] items-center justify-center rounded-xl border bg-[#640d14] p-2 px-4 text-xl font-bold text-white"
+              >
+                Subscribe Now
+              </Link>
+            )}
           </div>
           <div className="flex items-center w-full md:w-auto mt-4 md:mt-0">
             <img

@@ -1,9 +1,6 @@
+"use server";
 
-
-
-// "use server";
-
-// import { DocumentNode } from "graphql";  
+// import { DocumentNode } from "graphql";
 // import { cookies } from "next/headers";
 
 // const { BACKEND_URL } = process.env;
@@ -63,13 +60,15 @@
 //   }
 // };
 
-"use server";
 
-import { DocumentNode } from "graphql";  
+
+import { DocumentNode } from "graphql";
 import { cookies } from "next/headers";
 
 const { BACKEND_URL } = process.env;
-type ExtractVariables<T> = T extends { variables: object } ? T["variables"] : never;
+type ExtractVariables<T> = T extends { variables: object }
+  ? T["variables"]
+  : never;
 
 export const fetcher = async <T>({
   cache,
@@ -109,18 +108,21 @@ export const fetcher = async <T>({
       try {
         cookieStore.set("vendure-auth-token", t);
       } catch (e) {
-        console.trace('Failed to set token in cookie store', (e as Error).message);
+        console.trace(
+          "Failed to set token in cookie store",
+          (e as Error).message
+        );
       }
     }
 
     const body = await res.json();
     console.log(JSON.stringify(body));
     if (!res.ok) {
-      throw new Error(body.message || 'Server responded with an error');
+      throw new Error(body.message || "Server responded with an error");
     }
     return { status: res.status, body, token: t };
   } catch (error) {
-    console.error('Fetch error details:', error);
-    throw new Error((error as Error).message || 'Unknown error');
+    console.error("Fetch error details:", error);
+    throw new Error((error as Error).message || "Unknown error");
   }
 };
