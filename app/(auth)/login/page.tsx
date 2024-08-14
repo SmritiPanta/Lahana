@@ -14,8 +14,8 @@ const LoginPage = async ({
   
   return (
     <div className='flex flex-col  space-y-2 '>
-      <div className='right  ml-10 flex h-[450px]   w-[350px] flex-col rounded-xl md:w-[370px] mt-10'>
-      <h1 className='font1 mt-10 flex justify-center text-4xl  font-semibold text-[#EE2916]'>
+      <div className='right ml-0 md:ml-10 flex h-[450px]   w-[350px] flex-col rounded-xl md:w-[370px] mt-40 md:mt-10'>
+      <h1 className='font1 mt-10  flex justify-center text-4xl  font-semibold text-[#EE2916]'>
                 {' '}
                 Welcome Back
               </h1>

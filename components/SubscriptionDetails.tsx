@@ -168,12 +168,12 @@ const SubscriptionDetails: React.FC<SubscriptionDetailsProps> = ({
   
 
   return (
-    <div className=" ">
-      <h1 className="text-3xl flex justify-start font-bold text-[#EE2916]  ml-24 mt-8">
+    <div className=" container">
+      <h1 className="text-3xl flex justify-center md:justify-start font-bold text-[#EE2916]   mt-8">
         Subscription Details
       </h1>
 
-      <div className="bg-[#fff998]  rounded-xl p-6 mt-4 ml-4 max-w-xl">
+      <div className="bg-[#fff998]  rounded-xl p-6 mt-4 md:ml-4 max-w-xl">
         <h2 className="text-2xl font-semibold text-black mb-2">
           Subscription Type: {subscriptionData?.type}
         </h2>
@@ -188,7 +188,7 @@ const SubscriptionDetails: React.FC<SubscriptionDetailsProps> = ({
       <h2 className="text-2xl flex justify-center font-bold mt-5  text-black mb-2">
         Weekly Details:
       </h2>
-      {/* <FaChevronLeft /> */}
+      
       <div className="flex flex-row gap-2 mb-4 overflow-y-auto">
         {subscriptionData?.products.map((product) => (
           <Button
@@ -208,7 +208,7 @@ const SubscriptionDetails: React.FC<SubscriptionDetailsProps> = ({
           <h3 className="text-2xl font-bold text-black  mb-2">
             Details for {selectedDay.dayOfWeek}
           </h3>
-          <div className=" flex flex-row">
+          <div className=" flexflex-cols md:flex-row">
             <Image
               src={"/newa1.JPG"}
               objectFit="contain"

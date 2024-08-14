@@ -107,7 +107,7 @@ export const Middle = () => {
   return (
     <section
       id="about-us"
-      className="ml-0 md:ml-10 pt-10 flex flex-col md:flex-row md:justify-between "
+      className="ml-6 md:ml-10 pt-10 flex flex-col md:flex-row md:justify-between "
     >
       <div className="flex pt-5">
         <div className="flex flex-col">
@@ -118,29 +118,29 @@ export const Middle = () => {
               alt={"table"}
               width="260"
               height="1000"
-              className="bg-mint text-mint fill-current "
+              className="bg-mint text-mint h-[35vh] w-[48vw] md:h-[43vh] md:w-[19vw] md:ml-2 "
             ></Image>
           </div>
-          <div className=" ml-8 mt-4 px-5">
+          <div className=" md:ml-10 mt-4 px-5">
             <Image
               src={"/newa2.JPG"}
               objectFit="contain"
               alt={"table"}
               width="200"
               height="1000"
-              className="bg-mint text-mint h-[33vh] w-[15vw]  "
+              className="bg-mint text-mint h-[27vh] w:[25vw] md:h-[33vh] md:w-[15vw]  "
             ></Image>
           </div>
         </div>
         <div className="flex flex-col">
-          <div className="mt-4 py-10">
+          <div className="mt-12 ml-2 md:mt-4 py-10">
             <Image
               src={"/newa6.png"}
               objectFit="contain"
               alt={"table"}
               width="260"
               height="1500"
-              className="bg-mint text-mint h-[33vh] w-[15vw] "
+              className="bg-mint text-mint  md:-ml-2 h-[25vh] w-[40vw] md:h-[33vh] md:w-[15vw] "
             ></Image>
           </div>
           <div className=" -mt-5 ">
@@ -150,7 +150,7 @@ export const Middle = () => {
               alt={"table"}
               width="260"
               height="1000"
-              className="bg-mint text-mint fill-current h-[40vh] w-[18vw] "
+              className="bg-mint text-mint fill-current  h-[35vh] w-[50vw] md:h-[40vh] md:w-[18vw] "
             ></Image>
           </div>
         </div>

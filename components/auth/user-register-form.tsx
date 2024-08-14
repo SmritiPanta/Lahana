@@ -137,7 +137,7 @@ export const UserRegisterForm = ({
               
               <FormControl>
               <div className='relative flex items-center '>
-              <FaPhoneAlt className='text-[#EE2916] text-xl absolute mt-5 ml-3' />
+              <FaPhoneAlt className='text-[#EE2916] text-xl absolute mt-3 ml-3' />
                 <Input
                   type='text'
                 placeholder='Phone Number '
@@ -162,7 +162,7 @@ export const UserRegisterForm = ({
               
               <FormControl>
               <div className='relative flex items-center '>
-              <MdEmail  className='text-[#EE2916] text-2xl absolute mt-5 ml-3' />
+              <MdEmail  className='text-[#EE2916] text-2xl absolute mt-3 ml-3' />
                 <Input
                   
                   type='email'
@@ -189,7 +189,7 @@ export const UserRegisterForm = ({
               <FormLabel></FormLabel>
               <FormControl>
               <div className='relative flex items-center '>
-              <BsPersonFill className='text-[#EE2916] text-2xl absolute mt-4 ml-3' />
+              <BsPersonFill className='text-[#EE2916] text-2xl absolute mt-1 ml-3' />
                 <Input
                   placeholder='First Name'
                   autoComplete='given-name'
@@ -211,7 +211,7 @@ export const UserRegisterForm = ({
               <FormLabel></FormLabel>
               <FormControl>
               <div className='relative flex items-center '>
-              <BsPersonFill className='text-[#EE2916] text-2xl absolute mt-5 ml-3' />
+              <BsPersonFill className='text-[#EE2916] text-2xl absolute mt-1 ml-3' />
                 <Input
                   placeholder='Last Name'
                   autoComplete='family-name'
@@ -235,7 +235,7 @@ export const UserRegisterForm = ({
               
               <FormControl>
               <div className='relative flex items-center'>
-              <FaLock  className='text-[#EE2916] text-xl absolute mt-5 ml-3'/>
+              <FaLock  className='text-[#EE2916] text-xl absolute mt-2 ml-3'/>
                 <Input
                   
                   autoCapitalize='none'
@@ -262,7 +262,7 @@ export const UserRegisterForm = ({
               
               <FormControl>
               <div className='relative flex items-center'>
-              <FaLock  className='text-[#EE2916] text-xl absolute mt-5  ml-3'/>
+              <FaLock  className='text-[#EE2916] text-xl absolute mt-2  ml-3'/>
                 <Input
                   
                   autoCapitalize='none'

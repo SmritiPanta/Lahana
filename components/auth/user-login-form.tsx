@@ -152,7 +152,7 @@ export const UserLoginForm = ({
             <FormItem>
               <FormControl>
                 <div className='relative flex items-center'>
-                  <FaLock className='absolute ml-3 mt-7 text-xl text-[#EE2916]' />
+                  <FaLock className='absolute ml-3 mt-3 text-xl text-[#EE2916]' />
                   <Input
                     type='text'
                     placeholder='Password'

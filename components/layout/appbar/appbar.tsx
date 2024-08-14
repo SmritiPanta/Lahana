@@ -62,7 +62,7 @@ export const Appbar = async () => {
         </Link>
         
         <Link href="/profile">
-          <div className="text-2xl">{data?.activeCustomer?.firstName} </div>{" "}
+          <div className="text-2xl text-gray-500">{data?.activeCustomer?.firstName} </div>{" "}
         </Link>
 
         {data.activeCustomer ? (

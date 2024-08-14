@@ -328,11 +328,11 @@ export const SubscriptionInformationForm = ({
       <h1 className="font1 flex justify-center px-4 text-4xl font-semibold text-[#EE2916]">
         Subscription Plan
       </h1>
-      <h2 className="stylefont flex justify-center pt-5 text-3xl font-bold text-[#0c0404]">
-        <div className="-ml-1 -mt-5 text-7xl">
+      <h2 className="stylefont flex ml-8 md:ml-0 justify-center   pt-5 text-3xl font-bold text-[#0c0404]">
+        <div className=" -ml-3 md:-ml-1 -mt-5 md:-mt-5 text-7xl">
           <GoDash />
         </div>
-        Choose the right plan for you
+        <div className="ml-3 md:ml-0">Choose the right plan for you </div>
         <div className="-ml-1 -mt-5 text-7xl">
           <GoDash />
         </div>
@@ -364,7 +364,7 @@ export const SubscriptionInformationForm = ({
                   <img
                     src={"/nonveg.JPG"}
                     alt={`${subscription.category} Plan`}
-                    className="h-[30vh] w-[50vw] md:w-[50vh] rounded-xl object-cover mt-5"
+                    className="h-[30vh] w-[100vw] md:w-[50vh] rounded-xl object-cover mt-5"
                   />
                 </div>
                 {activeCustomerData?.activeCustomer ? (
