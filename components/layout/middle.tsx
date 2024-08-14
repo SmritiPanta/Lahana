@@ -107,7 +107,7 @@ export const Middle = () => {
   return (
     <section
       id="about-us"
-      className="ml-6 md:ml-10 pt-10 flex flex-col md:flex-row md:justify-between "
+      className=" md:ml-10 pt-10 flex flex-col md:flex-row md:justify-between "
     >
       <div className="flex pt-5">
         <div className="flex flex-col">
